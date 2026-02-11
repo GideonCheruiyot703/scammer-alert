@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scammer Alert</title>
+  <style>
+    body {
+      background-color: black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 4rem;
+      font-weight: bold;
+      color: red;
+      text-transform: uppercase;
+      animation: flash 1s infinite, bounce 2s infinite;
+    }
+
+    @keyframes flash {
+      0%, 50%, 100% { color: red; }
+      25%, 75% { color: yellow; }
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-30px); }
+    }
+  </style>
+</head>
+<body>
+  <h1>WE NI MATAKO SANA</h1>
+</body>
+</html>
